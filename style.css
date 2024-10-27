@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.istruzioni{
+    width: 10%;
+    height: auto;
+}
+.rubrica_wrapper{
+    height: auto;
+    width: 500px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: -8px;
+
+}
+
+.inputs{
+height: 110px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: start;
+flex-wrap: wrap;
+border-bottom: 2px solid black;
+gap: 20px;
+
+
+}
+.inputs input,
+.inputs button{
+    padding: 10px;
+    border-radius: 20px;
+}
+.inputs button{
+    border: 2px solid black;
+}
+.inputs input::-webkit-outer-spin-button,
+.inputs input::-webkit-inner-spin-button
+{
+   -webkit-appearance: none;
+   margin: 0;
+}
+.contacts_title{
+    height: 50px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 20px;
+}
+.title h3{
+    margin-top: 2px;
+    margin-left: 40px;
+}
+.contactsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: auto;
+    width: 60%;
+}
+.modifyBtn{
+    background-color: black;
+    color: white;
+    border: 1px solid black ;
+    padding: 2px;
+    border-radius: 5px;
+}
+.modifyBtn:hover{
+    background-color: white;
+    color: black;
+
+}
+.contactsWrapper p {
+    margin-left: 40px;
+}
+
+
